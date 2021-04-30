@@ -1,0 +1,6 @@
+note over selain:
+server answer to browser that note has create,and answer is: {"message":"note created"}
+end note
+
+selain->palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+palvelin-->selain: {"message":"note created"}
